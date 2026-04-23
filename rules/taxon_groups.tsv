@@ -1,0 +1,8 @@
+group_id	group_name	member_level	member_name	parent_group	note
+TG001	Enterobacterales	order	Enterobacterales	NA	order-level taxon
+TG002	Shigella	genus	Shigella	NA	genus-level taxon
+TG003	Salmonella	genus	Salmonella	NA	genus-level taxon
+TG004	Non-typhoidal Salmonella	species	Salmonella Enteritidis	Salmonella	example non-typhoidal Salmonella
+TG005	Non-typhoidal Salmonella	species	Salmonella Typhimurium	Salmonella	example non-typhoidal Salmonella
+TG006	Group A Streptococcus	species	Streptococcus pyogenes	NA	GAS proxy
+TG007	Group B Streptococcus	species	Streptococcus agalactiae	NA	GBS proxy

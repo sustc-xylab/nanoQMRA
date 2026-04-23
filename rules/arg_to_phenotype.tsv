@@ -1,0 +1,47 @@
+map_id	arg_pattern	match_type	phenotype	confidence	note
+ARGP001	KPC-	prefix	carbapenem-resistant	high	KPC family carbapenemase
+ARGP002	NDM-	prefix	carbapenem-resistant	high	NDM family carbapenemase
+ARGP003	VIM-	prefix	carbapenem-resistant	high	VIM family carbapenemase
+ARGP004	IMP-	prefix	carbapenem-resistant	high	IMP family carbapenemase
+ARGP005	CTX-M-	prefix	third-generation-cephalosporin-resistant	high	CTX-M ESBL family
+ARGP006	CTXM-	prefix	third-generation-cephalosporin-resistant	high	alternate CTX-M naming
+ARGP007	CMY-	prefix	third-generation-cephalosporin-resistant	high	AmpC family associated with 3GC resistance
+ARGP008	VEB-	prefix	third-generation-cephalosporin-resistant	high	VEB ESBL family
+ARGP009	qnrA	exact	fluoroquinolone-resistant	high	plasmid-mediated quinolone resistance
+ARGP010	qnrB	exact	fluoroquinolone-resistant	high	plasmid-mediated quinolone resistance
+ARGP011	qnrS	exact	fluoroquinolone-resistant	high	plasmid-mediated quinolone resistance
+ARGP012	qnrA-	prefix	fluoroquinolone-resistant	high	plasmid-mediated quinolone resistance variants
+ARGP013	qnrB-	prefix	fluoroquinolone-resistant	high	plasmid-mediated quinolone resistance variants
+ARGP014	qnrS-	prefix	fluoroquinolone-resistant	high	plasmid-mediated quinolone resistance variants
+ARGP015	vanA	exact	vancomycin-resistant	high	VRE marker
+ARGP016	vanA-	prefix	vancomycin-resistant	high	VRE marker variants
+ARGP017	vanB	exact	vancomycin-resistant	high	VRE marker
+ARGP018	vanB-	prefix	vancomycin-resistant	high	VRE marker variants
+ARGP019	mecA	exact	methicillin-resistant	high	MRSA marker
+ARGP020	mecA-	prefix	methicillin-resistant	high	MRSA marker variants
+ARGP021	mecC	exact	methicillin-resistant	high	MRSA marker
+ARGP022	mecC-	prefix	methicillin-resistant	high	MRSA marker variants
+ARGP023	ermA	exact	macrolide-resistant	high	macrolide resistance methylase
+ARGP024	ermB	exact	macrolide-resistant	high	macrolide resistance methylase
+ARGP025	ermC	exact	macrolide-resistant	high	macrolide resistance methylase
+ARGP026	ermF	exact	macrolide-resistant	high	macrolide resistance methylase
+ARGP027	ermT	exact	macrolide-resistant	high	macrolide resistance methylase
+ARGP028	ermA-	prefix	macrolide-resistant	high	macrolide resistance methylase variants
+ARGP029	ermB-	prefix	macrolide-resistant	high	macrolide resistance methylase variants
+ARGP030	ermC-	prefix	macrolide-resistant	high	macrolide resistance methylase variants
+ARGP031	ermF-	prefix	macrolide-resistant	high	macrolide resistance methylase variants
+ARGP032	ermT-	prefix	macrolide-resistant	high	macrolide resistance methylase variants
+ARGP033	mphA	exact	macrolide-resistant	medium	macrolide phosphotransferase
+ARGP034	mphB	exact	macrolide-resistant	medium	macrolide phosphotransferase
+ARGP035	msrA	exact	macrolide-resistant	medium	macrolide efflux
+ARGP036	lnuA	exact	macrolide-resistant	medium	lincosamide resistance; included conservatively for MLS context
+ARGP037	lnuB	exact	macrolide-resistant	medium	lincosamide resistance; included conservatively for MLS context
+ARGP038	mphA-	prefix	macrolide-resistant	medium	macrolide phosphotransferase variants
+ARGP039	mphB-	prefix	macrolide-resistant	medium	macrolide phosphotransferase variants
+ARGP040	msrA-	prefix	macrolide-resistant	medium	macrolide efflux variants
+ARGP041	lnuA-	prefix	macrolide-resistant	medium	lincosamide resistance variants
+ARGP042	lnuB-	prefix	macrolide-resistant	medium	lincosamide resistance variants
+ARGP043	ROB-1	exact	ampicillin-resistant	high	classic H. influenzae ampicillin resistance marker
+ARGP044	ROB-1-	prefix	ampicillin-resistant	high	classic H. influenzae ampicillin resistance marker variants
+ARGP045	TEM-1	exact	ampicillin-resistant	medium	can mediate ampicillin resistance in H. influenzae; interpret with caution
+ARGP046	TEM-1-	prefix	ampicillin-resistant	medium	can mediate ampicillin resistance in H. influenzae; interpret with caution

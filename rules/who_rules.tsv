@@ -1,0 +1,17 @@
+rule_id	priority	pathogen_label	taxon_level	taxon_name	phenotype	required	match_note	implemented
+WHO001	Critical Priority	Carbapenem-resistant Acinetobacter baumannii	species	Acinetobacter baumannii	carbapenem-resistant	ALL	species == Acinetobacter baumannii AND phenotype == carbapenem-resistant	YES
+WHO002	Critical Priority	Third-generation cephalosporin-resistant Enterobacterales	order	Enterobacterales	third-generation-cephalosporin-resistant	ALL	order == Enterobacterales AND phenotype == third-generation-cephalosporin-resistant	YES
+WHO003	Critical Priority	Carbapenem-resistant Enterobacterales	order	Enterobacterales	carbapenem-resistant	ALL	order == Enterobacterales AND phenotype == carbapenem-resistant	YES
+WHO004	Critical Priority	Rifampicin-resistant Mycobacterium tuberculosis	species	Mycobacterium tuberculosis	rifampicin-resistant	ALL	species == Mycobacterium tuberculosis AND phenotype == rifampicin-resistant	NO
+WHO005	High Priority	Fluoroquinolone-resistant Salmonella Typhi	species	Salmonella Typhi	fluoroquinolone-resistant	ALL	species == Salmonella Typhi AND phenotype == fluoroquinolone-resistant	YES
+WHO006	High Priority	Fluoroquinolone-resistant Shigella	genus	Shigella	fluoroquinolone-resistant	ALL	genus == Shigella AND phenotype == fluoroquinolone-resistant	YES
+WHO007	High Priority	Vancomycin-resistant Enterococcus faecium	species	Enterococcus faecium	vancomycin-resistant	ALL	species == Enterococcus faecium AND phenotype == vancomycin-resistant	YES
+WHO008	High Priority	Carbapenem-resistant Pseudomonas aeruginosa	species	Pseudomonas aeruginosa	carbapenem-resistant	ALL	species == Pseudomonas aeruginosa AND phenotype == carbapenem-resistant	YES
+WHO009	High Priority	Fluoroquinolone-resistant non-typhoidal Salmonella	genus	Salmonella	fluoroquinolone-resistant	ALL	genus == Salmonella but species != Salmonella Typhi AND phenotype == fluoroquinolone-resistant	YES
+WHO010	High Priority	Third-generation cephalosporin-resistant Neisseria gonorrhoeae	species	Neisseria gonorrhoeae	third-generation-cephalosporin-resistant	ALL	species == Neisseria gonorrhoeae AND phenotype == third-generation-cephalosporin-resistant	YES
+WHO011	High Priority	Fluoroquinolone-resistant Neisseria gonorrhoeae	species	Neisseria gonorrhoeae	fluoroquinolone-resistant	ALL	species == Neisseria gonorrhoeae AND phenotype == fluoroquinolone-resistant	YES
+WHO012	High Priority	Methicillin-resistant Staphylococcus aureus	species	Staphylococcus aureus	methicillin-resistant	ALL	species == Staphylococcus aureus AND phenotype == methicillin-resistant	YES
+WHO013	Medium Priority	Macrolide-resistant Group A Streptococcus	species	Streptococcus pyogenes	macrolide-resistant	ALL	species == Streptococcus pyogenes AND phenotype == macrolide-resistant	YES
+WHO014	Medium Priority	Macrolide-resistant Streptococcus pneumoniae	species	Streptococcus pneumoniae	macrolide-resistant	ALL	species == Streptococcus pneumoniae AND phenotype == macrolide-resistant	YES
+WHO015	Medium Priority	Ampicillin-resistant Haemophilus influenzae	species	Haemophilus influenzae	ampicillin-resistant	ALL	species == Haemophilus influenzae AND phenotype == ampicillin-resistant	YES
+WHO016	Medium Priority	Penicillin-resistant Group B Streptococcus	species	Streptococcus agalactiae	penicillin-resistant	ALL	species == Streptococcus agalactiae AND phenotype == penicillin-resistant	NO

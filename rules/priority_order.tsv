@@ -1,0 +1,6 @@
+priority	score
+Critical Priority	3
+High Priority	2
+Medium Priority	1
+Not listed	0
+Not implemented	-1
