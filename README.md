@@ -18,7 +18,7 @@ Therefore, `nanoQMRA` can be used as a nanopore-based bioinformatics workflow fo
 
 1. Download and environment setup
 
-```bash
+bash
 git clone https://github.com/your-username/nanoQMRA.git
 cd nanoQMRA
 
