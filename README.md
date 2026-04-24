@@ -61,17 +61,24 @@ Run the workflow with:
 
 bash
 bash NanoQMRA.sh -f <input.fa> -t <threads> -p <plascad_env>
+
 Parameters:
 
 -f: input FASTA file
+
 -t: number of threads
+
 -p: conda environment name used for running Plascad
+
 Example:
+
 bash NanoQMRA.sh -f example.fa -t 40 -p Plascad
+
 The workflow performs the following steps:
 
 Run ARGpore2 on the input nanopore FASTA file
 Locate and collect ARG-related taxonomy / summary result files
+
 Run Plascad to classify plasmid mobility
 Copy required intermediate files into the input/ directory for downstream analysis
 Run downstream scoring scripts to calculate per-read scores and the final sample-level risk_score
