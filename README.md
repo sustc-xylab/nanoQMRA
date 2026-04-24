@@ -1,28 +1,28 @@
-# nanoQMRA
+# NanoQMRA
 
-nanoQMRA is a bioinformatics tool for quantitative microbial risk assessment (QMRA) based on nanopore sequencing data. It is designed to calculate QMRA-related risk values for both individual reads in species level.
+NanoQMRA is a bioinformatics tool for quantitative microbial risk assessment (QMRA) based on nanopore sequencing data. It is designed to calculate QMRA-related risk values for both individual reads in species level.
 
-For each read, `nanoQMRA` performs independent scoring and indicates:
+For each read, `NanoQMRA` performs independent scoring and indicates:
 - whether the read is associated with a pathogenic host
 - whether the corresponding genetic element has mobility
 - whether the read carries an antibiotic resistance gene (ARG)
 
-By integrating these features, nanoQMRA generates:
+By integrating these features, NanoQMRA generates:
 - a per-read scored result table
 - a ranked per-read risk list
 - a final species-level risk score
 
-Therefore, nanoQMRA can be used as a nanopore-based bioinformatics workflow for microbial risk evaluation by combining pathogen association, mobility potential, and ARG carriage.
+Therefore, NanoQMRA can be used as a nanopore-based bioinformatics workflow for microbial risk evaluation by combining pathogen association, mobility potential, and ARG carriage.
 
 ## Download and environment setup
 
 You can download this repository to your Linux server in one of the following ways.
 
 bash
-git clone https://github.com/your-username/nanoQMRA.git
-cd nanoQMRA
+git clone https://github.com/your-username/NanoQMRA.git
+cd NanoQMRA
 
-nanoQMRA is designed to run in a Linux environment.
+NanoQMRA is designed to run in a Linux environment.
 
 Basic tools required:
 
@@ -49,7 +49,7 @@ conda activate Plascad
 Please modify environment names according to your local installation.
 
 ## How to use
-nanoQMRA currently accepts one nanopore FASTA file per run.
+NanoQMRA currently accepts one nanopore FASTA file per run.
 
 Examples of input files:
 example.fa
@@ -59,14 +59,14 @@ Please avoid spaces or special characters in file names.
 Run the workflow with:
 
 bash
-bash nanoQMRA.sh -f <input.fa> -t <threads> -p <plascad_env>
+bash NanoQMRA.sh -f <input.fa> -t <threads> -p <plascad_env>
 Parameters:
 
 -f: input FASTA file
 -t: number of threads
 -p: conda environment name used for running Plascad
 Example:
-bash nanoQMRA.sh -f example.fa -t 40 -p Plascad
+bash NanoQMRA.sh -f example.fa -t 40 -p Plascad
 The workflow performs the following steps:
 
 Run ARGpore2 on the input nanopore FASTA file
@@ -76,7 +76,7 @@ Copy required intermediate files into the input/ directory for downstream analys
 Run downstream scoring scripts to calculate per-read scores and the final sample-level risk_score
 
 ## Output files
-After running, nanoQMRA generates both final result files and intermediate files.
+After running, NanoQMRA generates both final result files and intermediate files.
 
 Final result files are written to the output/ directory.
 
